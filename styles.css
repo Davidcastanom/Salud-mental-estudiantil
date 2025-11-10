@@ -239,6 +239,18 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-Quaternary {
+    background: var(--light-blue);
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+}
+
+.btn-Quaternary :hover {
+    background: var(--primary-blue);
+    color: white;
+    transform: translateY(-2px);
+}
+
 .btn-tertiary {
     background: var(--emergency);
     color: white;
@@ -693,4 +705,5 @@ body {
 }
 
 .resource-card.emergency .btn-resource:hover {
+
     background: #E6332A;}
