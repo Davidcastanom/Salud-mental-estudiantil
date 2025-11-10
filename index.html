@@ -194,15 +194,14 @@
             background: var(--light-blue);
             color: var(--primary-blue);
             border: 2px solid var(--primary-blue);
-        }  
-    
-         .btn-Quaternary {
-  text-decoration: none; /* quita subrayado */
-  color: white; /* pone el texto blanco */  
-    
-            background: var(--light-blue);
-            color: var(--primary-blue);
-            border: 2px solid var(--primary-blue);
+        
+       }
+
+        .btn-quaternary :hover {
+            background: var(--primary-blue);
+            color: white;
+            transform: translateY(-2px);
+          
         }
 
         .btn-secondary:hover {
@@ -586,11 +585,12 @@
                             Conversar con Asistente IA
                         </button>
                         
-                         <button class="btn btn-Quaternary" target="_blank">
-                            <span class="btn-icon">🤖
-               <a href="https://claude.ai/public/artifacts/15eb7407-f3bb-4675-8fec-ec00eb2e102a" target="_blank">
-  "Asistente IA en entrenamiento"
-</a>     </span>
+                         <button class="btn btn-Quaternary">
+                          <a href="https://claude.ai/public/artifacts/15eb7407-f3bb-4675-8fec-ec00eb2e102a" 
+                           target="_blank" 
+                           class="btn btn-Quaternary">
+                           <span class="btn-icon">🤖</span> Asistente IA en entrenamiento</a>
+
                         </button>
                         
                         <button class="btn btn-secondary" onclick="showSection('test')">
