@@ -66,6 +66,7 @@ body {
     background: 
         radial-gradient(circle at 20% 50%, rgba(0, 217, 255, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 80%, rgba(0, 102, 255, 0.1) 0%, transparent 50%),
+       radial-gradient(circle at 80% 80%, rgba(0, 102, 255, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 40% 20%, rgba(0, 82, 204, 0.1) 0%, transparent 50%);
     animation: backgroundMove 20s ease-in-out infinite;
     pointer-events: none;
@@ -707,3 +708,4 @@ body {
 .resource-card.emergency .btn-resource:hover {
 
     background: #E6332A;}
+
